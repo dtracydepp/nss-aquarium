@@ -1,0 +1,19 @@
+body {
+    background-color: coral;
+}
+  
+  h1{
+      text-align: center;
+      background-color: black;
+      color: coral;
+  }
+
+  img{
+      max-width: 30%;
+      height: auto;
+      
+  }
+
+  .contentContainer {
+      display: flex;
+  }
