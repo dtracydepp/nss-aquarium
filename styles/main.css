@@ -15,5 +15,11 @@ body {
   }
 
   .contentContainer {
+      display: flex;    	 
+  }
+
+  
+  .contentContainer_right{
       display: flex;
+      border-style:solid;
   }
