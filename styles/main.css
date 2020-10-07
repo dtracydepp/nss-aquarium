@@ -15,11 +15,26 @@ body {
   }
 
   .contentContainer {
-      display: flex;    	 
+      display: flex;  
+      
+       	 
   }
 
-  
-  .contentContainer_right{
-      display: flex;
-      border-style:solid;
+  .contentContainer_left {
+    display: flex;  
+    /* flex-wrap: wrap;
+    justify-content: space-around; */
   }
+
+  .fishList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+
+  .contentContainer_right {
+    border-style:solid;
+    flex: 1;
+  }     
+ 
