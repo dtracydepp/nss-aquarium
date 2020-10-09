@@ -1,12 +1,12 @@
 import {useLocations} from './LocationDataProvider.js'
-import { FishList } from "./FishList.js"
+import {FishList} from "./FishList.js"
+import {LocationsList} from "./LocationList.js"
 
 
-FishList ()
 
 const allTheLocations = useLocations()
-// console.log(allTheLocations)
 
-for (const locations of allTheLocations){
-    console.log(locations)
-}
+LocationsList ()
+
+
+
