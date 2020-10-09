@@ -6,9 +6,9 @@ export const LocationsList = () => {
    
     const location =useLocations()
 
- let fishHTMLRepresentations =""
+ let locationHTMLRepresentations = ""
  for (const location of locations) {
-     fishHTMLRepresentations += Location(location)
+     locationHTMLRepresentations += Location(location)
  }
     
 // Adds a section of all of the locations to the DOM
@@ -17,7 +17,7 @@ contentElement.innerHTML += `
     <section class="travel_locations">
     <h3>Places to See</h3>
     <div class="location">
-    ${fishHTMLRepresentations}
+    ${locationHTMLRepresentations}
     </div>
     </section>
 `
