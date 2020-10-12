@@ -1,3 +1,5 @@
+// Function is responsible for taking location object and building out the HTML.
+
 export const Locations = (locationObj) => {
     return `
     <div class="location">

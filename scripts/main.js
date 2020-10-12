@@ -7,6 +7,7 @@ import {LocationsList} from "./LocationList.js"
 const allTheLocations = useLocations()
 
 LocationsList ()
+FishList ()
 
 
 
