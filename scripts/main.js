@@ -1,6 +1,6 @@
-import {useLocations} from './LocationDataProvider.js'
-import {FishList} from "./FishList.js"
-import {LocationsList} from "./LocationList.js"
+import {useLocations} from './locations/LocationDataProvider.js'
+import {FishList} from "./fish/FishList.js"
+import {LocationsList} from "./locations/LocationList.js"
 
 
 
