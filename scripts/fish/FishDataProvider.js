@@ -61,7 +61,8 @@ export const soilderFish = () => {
 return soilders
 }
 
-
+export const nonHolyFish = () => {
+    
 const regularFish = [] 
 
        for (const fish of fishCollection) {
@@ -70,4 +71,5 @@ const regularFish = []
         regularFish.push(fish)
     }
 }
-return regularFish
+      return regularFish
+}

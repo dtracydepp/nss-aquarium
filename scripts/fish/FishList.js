@@ -2,7 +2,7 @@ import { Fish } from "./Fish.js"
 /**
  *  Fish which renders individual fish objects as HTML
  */
-import {useFish, mostHolyFish, soilderFish} from "./FishDataProvider.js"
+import {mostHolyFish, soilderFish, nonHolyFish} from "./FishDataProvider.js"
 
 const buildFishContainerHTML = (arrayOfFish) => {
 
