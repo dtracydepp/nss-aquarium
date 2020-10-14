@@ -31,3 +31,43 @@ const fishCollection = [
 export const useFish = () => {
     return fishCollection.slice()
 }
+
+
+export const mostHolyFish = () => {
+   
+    const holyFish = [] 
+
+       for (const fish of fishCollection) {
+    //    console.log(fish)
+    if (fish.length % 3 === 0) {
+        holyFish.push(fish)
+    }
+}
+// console.log(holyFish)
+return holyFish
+}
+
+
+export const soilderFish = () => {
+   
+    const soilders = [] 
+
+       for (const fish of fishCollection) {
+    
+    if (fish.length % 5 === 0 && fish.length % 3 !== 0) {
+        soilders.push(fish)
+    }
+}
+return soilders
+}
+
+
+const regularFish = [] 
+
+       for (const fish of fishCollection) {
+    
+    if (fish.length % 3 !==0 && fish.length % 5 !== 0) {
+        regularFish.push(fish)
+    }
+}
+return regularFish
